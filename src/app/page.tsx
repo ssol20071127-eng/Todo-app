@@ -22,7 +22,7 @@ export default function Todo() {
   const [selectedButton, setSelectedButton] = useState("All");
 
   return (
-    <div className="w-screen h-screen flex justify-center py-60">
+    <div className="w-screen h-screen flex justify-center items-center py-60">
       <Card className="w-[400px] h-fit">
         <CardHeader>
           <h1 className="flex items-center justify-center text-[20px]">
