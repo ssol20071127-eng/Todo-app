@@ -6,7 +6,6 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { nanoid } from "nanoid";
-import { BooleanLiteral } from "typescript";
 
 const tabs = ["All", "Completed", "Incomplete"];
 
