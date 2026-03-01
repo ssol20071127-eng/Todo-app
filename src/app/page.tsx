@@ -12,7 +12,7 @@ const tabs = ["All", "Completed", "Incomplete"];
 
 type Todo = {
   id: string;
-  isDone: Boolean;
+  isDone: boolean;
   text: string;
 };
 
